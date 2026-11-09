@@ -1,0 +1,14 @@
+defaults:
+  - GradDiff
+
+handler: AdvNPO
+method_args:
+  beta: 0.1
+  alpha: 1.0
+  gamma: 1.0
+  retain_loss_type: NLL
+  perturb_layer: 8
+  epsilon: 3.0
+  adv_steps: 3
+  random_init: false
+  std_normalization: false
